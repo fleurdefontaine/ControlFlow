@@ -10,7 +10,7 @@ Fungsi `cControlFlow` adalah sebuah alat obfuskasi kode yang dirancang untuk mem
 2. Code akan membuat loop `while` dan pernyataan `if` berdasarkan perbandingan nilai `n` dan `a`.
 3. Kode asli disisipkan ke dalam struktur yang dihasilkan pada kedalaman yang berbeda.
 4. Variabel `N_1_`, `A_1_`, dan `B_1_` dimanipulasi di seluruh kode yang dihasilkan.
-5. Nilai acak digunakan untuk menambah variabilitas pada hasil obfuskasi.
+5. Nilai acak digunakan untuk menambah variabilitas pada hasil obfuscation.
 
 ### Fungsi
 
@@ -48,11 +48,11 @@ Output akan berupa string yang berisi kode Lua yang diobfuskasi. Kode ini akan m
 
 - Kode yang dihasilkan mungkin sangat kompleks dan sulit dibaca.
 - Meskipun obfuskasi membuat kode lebih sulit dianalisis, ini bukan metode enkripsi dan tidak menjamin keamanan absolut.
-- Gunakan dengan hati-hati, karena kode yang sangat diobfuskasi dapat mempengaruhi kinerja dan kemampuan debug.
+- Gunakan dengan hati-hati, karena kode yang sangat diobfuscate dapat mempengaruhi kinerja dan kemampuan debug.
 
 ## Kustomisasi
 
 Anda dapat memodifikasi fungsi ini untuk:
 - Menambahkan lebih banyak jenis struktur kontrol.
 - Mengubah cara kode asli disisipkan.
-- Menambahkan lapisan obfuskasi tambahan.
+- Menambahkan lapisan obfuscation tambahan.
