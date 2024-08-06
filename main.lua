@@ -28,7 +28,7 @@ function ControlFlow(code, n, a, depth, depthValues)
     if depth == (#code - 1) then
         src = src .. table.remove(code, 1) .. "\n"
     else
-        local result = cControlFlow(code, n, a, depth + 1, depthValues)
+        local result = ControlFlow(code, n, a, depth + 1, depthValues)
         if type(result) == "table" then
             src = src .. result[1]
             n = result[2]
