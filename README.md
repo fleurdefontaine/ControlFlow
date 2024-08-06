@@ -15,7 +15,7 @@ Fungsi `cControlFlow` adalah sebuah alat obfuskasi kode yang dirancang untuk mem
 ### Fungsi
 
 ```lua
-cControlFlow(code, n, a, depth, depthValues)
+ControlFlow(code, n, a, depth, depthValues)
 ```
 
 ### Parameter
@@ -36,7 +36,7 @@ local src = {
     'print("Result:", y)'
 }
 
-local res = cControlFlow(src)
+local res = ControlFlow(src)
 print(res)
 ```
 
